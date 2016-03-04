@@ -1,0 +1,34 @@
+{
+  "name": "get_event_key",
+  "version": "0.0.1",
+  "description": "get event key for the browser and node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/get_event_key.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test-node",
+    "test-node": "node ./test | ./node_modules/.bin/tap-spec",
+    "test-node-raw": "node ./test",
+    "test-browser-local": "zuul --local 9999 --ui tape -- ./test"
+  },
+  "keywords": [
+    "get_event_key",
+    "get_event_key.js"
+  ],
+  "author": "Nathan Faucett",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jsbeautifier": "^0.2.7",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.2.0",
+    "zuul": "^3.3.0"
+  },
+  "dependencies": {
+    "get_event_char_code": "git://github.com/nathanfaucett/get_event_char_code.git"
+  }
+}

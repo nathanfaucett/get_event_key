@@ -1,4 +1,4 @@
-dom_dimensions
+get_event_key
 =======
 
-DOM dimensions for the browser and node.js
+returns normalized event key from event

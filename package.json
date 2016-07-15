@@ -1,7 +1,7 @@
 {
-  "name": "get_event_key",
+  "name": "@nathanfaucett/get_event_key",
   "version": "0.0.1",
-  "description": "get event key for the browser and node.js",
+  "description": "returns normalized event key from event",
   "repository": {
     "type": "git",
     "url": "https://github.com/nathanfaucett/get_event_key.git"
@@ -21,14 +21,14 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-jsbeautifier": "^0.2.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13",
     "tap-spec": "^4.1.1",
     "tape": "^4.2.0",
     "zuul": "^3.3.0"
   },
   "dependencies": {
-    "get_event_char_code": "git://github.com/nathanfaucett/get_event_char_code.git"
+    "@nathanfaucett/get_event_char_code": "^0.0.1"
   }
 }

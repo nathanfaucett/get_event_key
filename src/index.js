@@ -1,4 +1,4 @@
-var getEventCharCode = require("get_event_char_code");
+var getEventCharCode = require("@nathanfaucett/get_event_char_code");
 
 
 var normalizeKey, translateToKey;
